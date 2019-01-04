@@ -1,0 +1,22 @@
+{
+    "name": "ashiyro/dev_",
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ashiyro",
+            "email": "guillaume.cecile95@icloud.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Components\\": "Components",
+            "Framework\\": "Framework"
+        }
+    }
+}
